@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    color: black;
+    /* this one affects all elements other than h1-h6 tags */
+    font-size: 21px;
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size:36px;
+}
+h3{
+    font-size: 28px;
+}
+/* layout */
+header{
+    padding: 48px;
+    text-align: center;
+    background-color: blueviolet; 
+    color:white; 
+}
+.intro{
+    text-align: center;
+    margin:100px auto;
+}
+ 
+.genres{
+    background-color: rgb(24, 192, 214);
+    color:whitesmoke;
+    padding:75px 0;
+    text-align:center;
+}
+.columns{
+    display: flex;
+}
+.column{
+    margin:0 10px;
+}
+
+
